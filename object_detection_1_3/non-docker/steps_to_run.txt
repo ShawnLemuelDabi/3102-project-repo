@@ -1,0 +1,6 @@
+1. git clone https://github.com/ultralytics/yolov5.git
+2. cd /content/yolov5/data/images
+3. run requirements.bat
+4. cd /content/yolov5
+5. pip install -qr requirements.txt
+6. python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source data/images

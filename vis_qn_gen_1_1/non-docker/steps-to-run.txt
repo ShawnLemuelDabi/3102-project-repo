@@ -1,0 +1,8 @@
+create a new venv
+    python -m virtualenv .
+    Scripts\activate
+    
+git clone https://github.com/batra-mlp-lab/visdial-rl.git
+make a new repo with the correctly adjusted visdial settings
+run "download_preprocessed_and_checkpoints.bat"
+

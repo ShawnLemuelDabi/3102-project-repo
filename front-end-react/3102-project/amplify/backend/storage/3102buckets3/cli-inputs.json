@@ -1,0 +1,17 @@
+{
+  "resourceName": "3102buckets3",
+  "policyUUID": "307e62bb",
+  "bucketName": "3102projectce8a4842d04f4aeb855d97a89d015791",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
