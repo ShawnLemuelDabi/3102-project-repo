@@ -24,5 +24,6 @@
 # TODOs
 
 1. Modularise both scripts.
-2. Put in docker.
-3. design the front end
+2. Put in docker. (make the script accessible via fast api)
+3. design the front end (DONE)
+4. Pass the result variable from front end (src/app.js line 20 to the python script via fast api input)
