@@ -17,9 +17,12 @@ function App() {
   }
   async function onChange(e) {
     const file = e.target.files[0];
-    const result = await Storage.put(file.name, file, {
-      contentType: 'image/png'
-    })
+    const result = await Storage.put(file.name, file 
+    //   ,{
+    //   contentType: 'image/png'
+    // }
+    )
+    //We need to pass this result to the python script
     console.log({ result })
     fetchImages()
   }
